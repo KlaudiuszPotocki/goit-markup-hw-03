@@ -1,0 +1,248 @@
+:root {
+    --brand-color: #212121;
+    --item-color: #2196f3;
+    --link-color: #757575;
+    --background-color: #f5f4fa;
+    --footer-background: #2f303a;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #212121;
+}
+
+.nav-contact {
+    display: flex;
+    gap: 50px;
+}
+
+a[href="./index.html"] {
+    font-family: Raleway;
+    text-decoration: none;
+    color: #212121;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.nav-links .nav-link {
+    color: var(--brand-color);
+}
+.nav-links .nav-link:hover {
+    color: var(--item-color);
+}
+.nav-link {
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer-links .footer-link:hover {
+    color: var(--item-color);
+}
+.footer-link {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+ul {
+    list-style: none;
+}
+
+.button-portfolio:hover {
+    color: var(--background-color);
+    background-color: var(--item-color);
+}
+
+.paragraph {
+    line-height: 1.71;
+    font-size: 14px;
+    color: var(--link-color);
+}
+
+.contact-menu {
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 2%;
+    color: var(--link-color);
+}
+.contact-menu:hover,
+.contact-menu:focus {
+    color: var(--item-color);
+}
+.effective-solutions {
+position: absolute;
+width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+    
+}
+.paragraph-title {
+    font-size: 14px;
+}
+.headers-sections {
+    position: absolute;
+width: 352px;
+height: 42px;
+left: 624px;
+top: 969px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+}
+.team {
+    font-size: 16px;
+    font-weight: 500;
+}
+.specializations-team {
+    font-size: 16px;
+    color: var(--link-color);
+}
+.postal-address {
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 3%;
+    line-height: 1.71;
+}
+
+.contact-footer {
+    font-style: normal;
+    text-decoration: none;
+    color: var(--link-color);
+    font-size: 14px;
+    letter-spacing: 3%;
+    line-height: 1, 71;
+}
+.photo-title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 6%;
+}
+
+.photo-title-text {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 3%;
+    color: var(--link-color);
+}
+.contact-footer:hover,
+.contact-footer:focus {
+    color: var(--item-color);
+}
+
+.container {
+    width: 1200px
+}
+
+/* positioning on the website */
+
+.container {
+    box-sizing: border-box;
+    padding: 0 15px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.block-header {
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    margin: 0px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 46px;
+    margin-right: 371px;
+}
+
+div.block-background-text {
+    position: absolute;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background-color: #2F303A;
+  }
+
+  .button-portfolio {
+    display: block;
+    width: 121px;
+    height: 38px;
+    background-color: var(--background-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 3%;
+    text-align: center;
+    text-decoration: none;
+    color: var(--brand-color);
+}
+
+.block-paragraph-title {
+    position: absolute;
+width: 1170px;
+height: 101px;
+left: 215px;
+top: 774px;
+}
+
+.button-in-main {
+    
+    cursor: pointer;
+    display: block;
+    border: none;
+    width: 200px;
+    height: 50px;
+    background-color: var(--item-color);
+
+    position: absolute;
+width: 117px;
+height: 30px;
+left: 742px;
+top: 440px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 6%;
+    text-align: center;
+    line-height: 1.87;
+    text-decoration: none;
+    color: #ffffff;
+display: flex;
+align-items: center;
+text-align: center; 
+}
+
+.block-images {
+    position: absolute;
+width: 370px;
+height: 294px;
+left: 215px;
+top: 1061px;
+}
+
+
