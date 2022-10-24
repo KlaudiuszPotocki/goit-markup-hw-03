@@ -91,12 +91,9 @@ ul {
     font-size: 14px;
 }
 .headers-sections {
-    position: absolute;
-    width: 352px;
-    height: 42px;
-    left: 624px;
-    top: 969px;
-
+    text-align: center;
+    margin-top: 94px;
+    text-align: center;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
@@ -149,8 +146,7 @@ ul {
 /* positioning on the website */
 
 .container {
-    width: 1200px;
-   
+    width: 1600px;
 }
 
 .block-header {
@@ -191,11 +187,13 @@ ul {
 }
 
 .block-paragraph-title {
-    position: absolute;
+    display: flex;
+    justify-content: center;
     width: 1170px;
     height: 101px;
-    left: 215px;
+    margin-left: 215px;
     top: 774px;
+    gap: 30;
 }
 
 .button-in-main {
@@ -222,7 +220,6 @@ ul {
 }
 
 .block-images {
-    position: absolute;
     width: 370px;
     height: 294px;
     left: 215px;
