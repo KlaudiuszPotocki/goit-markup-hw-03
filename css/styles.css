@@ -13,6 +13,10 @@ body {
     width: 1600px;
 }
 
+ul {
+    all: unset;
+}
+
 .nav-contact {
     display: flex;
     gap: 50px;
@@ -90,10 +94,10 @@ ul {
 .paragraph-title {
     font-size: 14px;
 }
-.headers-sections {
+.headers-sections-1 {
     text-align: center;
     margin-top: 94px;
-    text-align: center;
+    margin-bottom: 50px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
@@ -102,6 +106,20 @@ ul {
     text-align: center;
     letter-spacing: 0.03em;
 }
+
+.headers-sections-2 {
+    text-align: center;
+    padding-top: 94px;
+    margin-bottom: 50px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
 .team {
     font-size: 16px;
     font-weight: 500;
@@ -220,11 +238,30 @@ ul {
 }
 
 .block-images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    /*  
     width: 370px;
     height: 294px;
     left: 215px;
     top: 1061px;
+    */
 }
+
+.container-our-team {
+    
+    width: 1600px;
+    height: 648px;
+    background-color: var(--background-color);
+    margin-top: 94px;
+}
+
+.photo-team-container {
+    display: flex;
+    justify-content: center;
+}
+
 .block-footer-background {
     width: 1600px;
     height: 252px;
