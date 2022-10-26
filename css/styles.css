@@ -60,6 +60,7 @@ ul {
     line-height: 1.71;
     font-size: 14px;
     color: var(--link-color);
+    margin: 0 15px;
 }
 
 .contact-menu {
@@ -93,6 +94,8 @@ ul {
 }
 .paragraph-title {
     font-size: 14px;
+    margin-bottom: 10px;
+    margin: 94px 15px 10px 15px;
 }
 .headers-sections-1 {
     text-align: center;
@@ -111,6 +114,7 @@ ul {
     text-align: center;
     padding-top: 94px;
     margin-bottom: 50px;
+    margin-top: 0;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
@@ -127,6 +131,7 @@ ul {
 .specializations-team {
     font-size: 16px;
     color: var(--link-color);
+    margin-bottom: 36px;
 }
 .postal-address {
     color: #ffffff;
@@ -134,6 +139,8 @@ ul {
     font-size: 14px;
     letter-spacing: 3%;
     line-height: 1.71;
+    margin-top: 20px;
+    margin-bottom: 9px;
 }
 
 .contact-footer {
@@ -206,12 +213,10 @@ ul {
 
 .block-paragraph-title {
     display: flex;
-    justify-content: center;
+
     width: 1170px;
-    height: 101px;
+
     margin-left: 215px;
-    top: 774px;
-    gap: 30;
 }
 
 .button-in-main {
@@ -260,18 +265,23 @@ ul {
     display: flex;
     justify-content: center;
     gap: 30px;
-    
 }
 
 .border-photo {
-    border-bottom: solid #ffffff;
-    
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    text-align: center;
 }
 
 .block-footer-background {
     width: 1600px;
     height: 252px;
     background-color: var(--footer-background);
+    padding-left: 215px;
+    padding-top: 60px;
+}
+
+.telephone-no {
+    margin-top: 9px;
 }
