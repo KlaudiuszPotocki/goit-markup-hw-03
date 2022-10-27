@@ -7,10 +7,14 @@
     --footer-contact: rgba(255, 255, 255, 0.6);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: #212121;
-    width: 1600px;
 }
 
 ul {
@@ -19,8 +23,7 @@ ul {
 
 .nav-contact {
     display: flex;
-    gap: 50px;
-    padding: 0;
+    gap: 62px;
 }
 
 a[href="./index.html"] {
@@ -76,16 +79,12 @@ ul {
 .effective-solutions {
     margin: 0;
     padding-top: 200px;
-    padding-left: 452px;
-    padding-right: 452px;
+    padding-left: 252px;
+    padding-right: 252px;
     padding-bottom: 280px;
     font-family: "Roboto";
     font-weight: 900;
     font-size: 44px;
-    line-height: 20, 45;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -98,7 +97,6 @@ ul {
     margin: 94px 15px 10px 15px;
 }
 .headers-sections-1 {
-    text-align: center;
     margin-top: 94px;
     margin-bottom: 50px;
     font-family: "Roboto";
@@ -111,7 +109,6 @@ ul {
 }
 
 .headers-sections-2 {
-    text-align: center;
     padding-top: 94px;
     margin-bottom: 50px;
     margin-top: 0;
@@ -127,17 +124,18 @@ ul {
 .team {
     font-size: 16px;
     font-weight: 500;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 .specializations-team {
     font-size: 16px;
     color: var(--link-color);
-    margin-bottom: 36px;
+    padding-bottom: 30px
 }
 .postal-address {
     color: #ffffff;
     font-style: normal;
     font-size: 14px;
-    letter-spacing: 3%;
     line-height: 1.71;
     margin-top: 20px;
     margin-bottom: 9px;
@@ -171,16 +169,17 @@ ul {
 /* positioning on the website */
 
 .container {
-    width: 1600px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
 }
 
 .block-header {
     display: flex;
     align-items: center;
-    width: 1600px;
-    height: 80px;
-    padding-left: 215px;
-    padding-right: 227px;
+    margin-top: 24px;
+    margin-bottom: 25px;
 }
 
 .nav-links {
@@ -192,15 +191,11 @@ ul {
 }
 
 .block-background-text {
-    width: 1600px;
-    height: 600px;
     background-color: #2f303a;
 }
 
 .button-portfolio {
     display: block;
-    width: 121px;
-    height: 38px;
     background-color: var(--background-color);
     font-size: 16px;
     font-weight: 500;
@@ -213,10 +208,6 @@ ul {
 
 .block-paragraph-title {
     display: flex;
-
-    width: 1170px;
-
-    margin-left: 215px;
 }
 
 .button-in-main {
@@ -224,39 +215,30 @@ ul {
     cursor: pointer;
     display: block;
     border: none;
-    width: 200px;
-    height: 50px;
     background-color: var(--item-color);
     top: 430px;
-    margin-left: 700px;
-    margin-right: 700px;
+    margin-left: 500px;
     font-size: 16px;
     font-weight: bold;
-    letter-spacing: 6%;
-    text-align: center;
     line-height: 1.87;
     text-decoration: none;
     color: #ffffff;
     border-radius: 4px;
     align-items: center;
     text-align: center;
+    padding-top: 10px;
+    padding-right: 47px;
+    padding-bottom: 10px;
+    padding-left: 47px;
 }
 
 .block-images {
     display: flex;
     justify-content: center;
     gap: 30px;
-    /*  
-    width: 370px;
-    height: 294px;
-    left: 215px;
-    top: 1061px;
-    */
 }
 
 .container-our-team {
-    width: 1600px;
-    height: 648px;
     background-color: var(--background-color);
     margin-top: 94px;
 }
@@ -265,6 +247,7 @@ ul {
     display: flex;
     justify-content: center;
     gap: 30px;
+    padding-bottom: 94px;
 }
 
 .border-photo {
@@ -275,13 +258,12 @@ ul {
 }
 
 .block-footer-background {
-    width: 1600px;
-    height: 252px;
     background-color: var(--footer-background);
-    padding-left: 215px;
     padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .telephone-no {
     margin-top: 9px;
 }
+
