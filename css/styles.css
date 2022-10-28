@@ -17,7 +17,7 @@ body {
     color: #212121;
 }
 
-ul {
+ul, li {
     all: unset;
 }
 
@@ -153,6 +153,9 @@ ul {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 6%;
+    padding-top: 20px;
+    padding-bottom: 4px;
+    padding-left: 24px;
 }
 
 .photo-title-text {
@@ -160,13 +163,15 @@ ul {
     line-height: 1.87;
     letter-spacing: 3%;
     color: var(--link-color);
+    padding-left: 24px;
+    padding-bottom: 20px;
 }
 .contact-footer:hover,
 .contact-footer:focus {
     color: var(--item-color);
 }
 
-/* positioning on the website */
+/* positioning on the main website */
 
 .container {
     margin: 0 auto;
@@ -180,6 +185,7 @@ ul {
     align-items: center;
     margin-top: 24px;
     margin-bottom: 25px;
+
 }
 
 .nav-links {
@@ -204,6 +210,11 @@ ul {
     text-align: center;
     text-decoration: none;
     color: var(--brand-color);
+    padding-top: 6px;
+    padding-right: 22px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    border-radius: 4px;
 }
 
 .block-paragraph-title {
@@ -267,3 +278,26 @@ ul {
     margin-top: 9px;
 }
 
+/* positioning on the portfolio website */
+
+.buttons-in-section {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+}
+
+.photo-section-container{
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
+margin-bottom: 94px;
+
+}
+
+.border-photos {
+    flex-basis: calc((100% - 60px) / 3);
+    
+ }
