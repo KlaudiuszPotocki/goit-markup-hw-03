@@ -17,7 +17,8 @@ body {
     color: #212121;
 }
 
-ul, li {
+ul,
+li {
     all: unset;
 }
 
@@ -130,7 +131,7 @@ ul {
 .specializations-team {
     font-size: 16px;
     color: var(--link-color);
-    padding-bottom: 30px
+    padding-bottom: 30px;
 }
 .postal-address {
     color: #ffffff;
@@ -146,7 +147,6 @@ ul {
     text-decoration: none;
     color: var(--footer-contact);
     font-size: 14px;
-
 }
 .photo-title {
     font-size: 18px;
@@ -182,13 +182,6 @@ ul {
     align-items: center;
     margin-top: 24px;
     margin-bottom: 25px;
-    border: solid #eeeeee;
-    border-width: thin;
-    padding-bottom: 25px;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
-
 }
 
 .nav-links {
@@ -287,31 +280,35 @@ ul {
     display: flex;
     justify-content: center;
     gap: 8px;
-    margin-top: 100px;
+    margin-top: 94px;
     margin-bottom: 50px;
-
 }
 
-.photo-section-container{
-display: flex;
-flex-wrap: wrap;
-gap: 30px;
-margin-bottom: 94px;
-
+.photo-section-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 94px;
 }
 
 .border-photos {
     flex-basis: calc((100% - 60px) / 3);
-    
- }
+}
 
- .border-text {
+.border-text {
     border: solid #eeeeee;
     border-width: thin;
     border-top: 0px;
- 
- }
+}
 
 img {
     display: block;
+}
+
+.border-under-nav {
+    border: solid #ececec;
+    border-width: thin;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
 }
