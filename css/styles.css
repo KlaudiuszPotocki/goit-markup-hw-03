@@ -168,8 +168,14 @@ ul {
     padding: 0 15px;
 }
 
+.block-nav {
+    display: flex;
+    align-items: center;
+}
+
 .block-header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     margin-top: 24px;
     margin-bottom: 25px;
@@ -178,7 +184,7 @@ ul {
 .nav-links {
     display: flex;
     gap: 46px;
-    padding-right: 371px;
+    
     padding-left: 93px;
 }
 
